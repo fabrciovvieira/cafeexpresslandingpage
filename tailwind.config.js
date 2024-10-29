@@ -5,14 +5,14 @@ export default {
   ],
   theme: {
     backgroundImage: {
-      'bgHero': "url('./src/assets/bgfinalteste.png')",
-      'menuBg': "url('./src/assets/menubg.png')",
-      'feedBackBg': "url('./src/assets/feebbackBg.png')",
-      'logoCafe': "url('./src/assets/logoCafe.png')",
-      'bgFoto1': "url('./src/assets/foto1.png')",
-      'bgFoto2': "url('./src/assets/foto2.png')",
-      'lastBg': "url('./src/assets/lastBg.png')",
-    },
+      'bgHero': "url('/bgfinalteste.png')",
+      'menuBg': "url('/menubg.png')",
+      'feedBackBg': "url('/feebbackBg.png')",
+      'logoCafe': "url('/logoCafe.png')",
+      'bgFoto1': "url('/foto1.png')",
+      'bgFoto2': "url('/foto2.png')",
+      'lastBg': "url('/lastBg.png')",
+    },    
     screens: {
       'phone2': {'max': '380px'},
       'phone': {'max': '900px'},
