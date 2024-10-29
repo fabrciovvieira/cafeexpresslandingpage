@@ -1,6 +1,6 @@
 import Cards from "./compontens/Cards"
 import FeedBack from "./compontens/FeedBack"
-import { Footerpage } from "./compontens/FooterPage"
+import  Footerpage  from "./compontens/FooterPage"
 import Hero from "./compontens/Hero"
 import Menus from "./compontens/Menus"
 import Services from "./compontens/Services"
