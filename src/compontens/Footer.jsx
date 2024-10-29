@@ -4,7 +4,7 @@ import feed1 from '../assets/feed1.png';
 import feed2 from '../assets/feed2.png';
 import caneca from '../assets/caneca2.png';
 
-export const FooterPage = () => {
+export const Footer = () => {
   const ref = useRef(null);
   const isInView = useInView(ref, { once: true });
 
