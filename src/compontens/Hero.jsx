@@ -1,6 +1,6 @@
-
 import { motion } from 'framer-motion'
 import logo from '../assets/logoCafe.png'
+
 
 
 const Hero = () => {

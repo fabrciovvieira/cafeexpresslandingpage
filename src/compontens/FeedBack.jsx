@@ -69,7 +69,7 @@ const FeedBack = () => {
   };
 
   return (
-    <div className="w-screen h-screen bg-feedBackBg bg-cover bg-no-repeat flex flex-col items-center phone:pb-16 phone2:top-[300px]">
+    <div className="w-screen h-screen bg-feedBackBg bg-cover bg-no-repeat flex flex-col items-center pb-14 phone:pb-16 phone2:top-[300px]">
       <motion.div
         key={currentMenu}
         initial={{ opacity: 0, x: -100 }}

@@ -77,11 +77,11 @@ export const Footer = () => {
           </motion.div>
         </div>
 
-        <h2 className="text-6xl font-Cormorant font-bold italic text-center pt-20 phone:text-5xl ">
+        <h2 className="text-6xl font-Cormorant font-bold italic text-center pt-20 phone:text-5xl bg-background">
           O toque especial <br /> para o seu evento:
         </h2>
-        <div className="w-[90%] m-auto flex phone:flex-col justify-center items-center gap-5 pt-32 phone:pt-10">
-          <div className="text-center phone:text-left">
+        <div className="w-[100%] bg-background m-auto flex phone:flex-col justify-center items-center gap-5 pt-32 phone:pt-10">
+          <div className="text-center phone:text-left w-[90%]">
             <p className="font-raleway text-3xl phone:text-lg">
               Sabemos que seu evento é único, e o café tem o poder de tornar os momentos ainda mais especiais. 
               Com a <span className="font-bold">Cafeteria Express</span>, oferecemos mais do que uma bebida – 
