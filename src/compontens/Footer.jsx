@@ -17,7 +17,7 @@ export const Footer = () => {
   return (
     <div 
       ref={ref}
-      className="w-full h-screen bg-lastBg bg-cover bg-no-repeat phone:h-full phone:flex-col"
+      className="w-full h-screen phone:h-full bg-lastBg bg-cover bg-no-repeat phone:flex-col"
     >
       <div className="phone:h-auto">
         <h1 className="font-Cormorant pt-32 text-6xl italic text-center text-fontColours phone:text-5xl phone:font-bold">

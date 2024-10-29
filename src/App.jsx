@@ -28,7 +28,7 @@ function App() {
   }
 
   return (
-    <div className="h-screen phone:h-full bg-bgHero bg-cover bg-no-repeat">
+    <div className="h-screen phone:h-full bg-bgHero bg-cover phone:bg-contain bg-no-repeat">
         <Hero />
         <Cards />
         <Services />
