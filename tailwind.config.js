@@ -5,7 +5,7 @@ export default {
   ],
   theme: {
     backgroundImage: {
-      'bgHero': "url('./src/assets/bgGeral3.svg')",
+      'bgHero': "url('./src/assets/bgfinalteste.png')",
       'menuBg': "url('./src/assets/menubg.png')",
       'feedBackBg': "url('./src/assets/feebbackBg.png')",
       'logoCafe': "url('./src/assets/logoCafe.png')",
