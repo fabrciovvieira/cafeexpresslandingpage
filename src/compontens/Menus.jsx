@@ -4,7 +4,7 @@ import menubg from '../assets/menubg.png'
 const Menus = () => {
   return (
     <div 
-    style={{ backgroundImage: "url('../assets/menubg.png')" }}
+    style={{ backgroundImage: `url(${menubg})` }}
     className="w-full h-screen bg-menuBg relative bg-cover bg-no-repeat">
         <div className="flex flex-col justify-center items-center absolute top-[450px] phone:top-[600px] phone2:top-[300px] w-full m-auto">
             <img src={logo} alt="logo" />
