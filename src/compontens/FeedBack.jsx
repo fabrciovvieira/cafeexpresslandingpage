@@ -1,7 +1,7 @@
 
 import { useState } from "react";
 import { motion } from "framer-motion";
-
+import bgfeedback from '../assets/feebbackBg.png'
 const menus = [
   {
     title: "MENU CLÁSSICO",
@@ -69,7 +69,9 @@ const FeedBack = () => {
   };
 
   return (
-    <div className="w-screen h-screen bg-feedBackBg bg-cover bg-no-repeat flex flex-col items-center pb-14 phone:pb-16 phone2:top-[300px]">
+    <div 
+    style={{ backgroundImage: `url(${bgfeedback})` }}
+    className="w-screen h-screen bg-background2 bg-cover bg-no-repeat flex flex-col items-center pb-14 phone:pb-16 phone2:top-[300px]">
       <motion.div
         key={currentMenu}
         initial={{ opacity: 0, x: -100 }}

@@ -3,6 +3,7 @@ import { useRef } from "react";
 import feed1 from '../assets/feed1.png';
 import feed2 from '../assets/feed2.png';
 import caneca from '../assets/caneca2.png';
+import lastbg from '../assets/lastBg.png'
 
 export const Footer = () => {
   const ref = useRef(null);
@@ -17,6 +18,7 @@ export const Footer = () => {
   return (
     <div 
       ref={ref}
+      style={{ backgroundImage: `url(${lastbg})` }}
       className="w-full h-screen phone:h-full bg-lastBg bg-cover bg-no-repeat phone:flex-col"
     >
       <div className="phone:h-auto bg-lastBg bg-cover bg-no-repeat">

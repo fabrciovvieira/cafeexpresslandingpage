@@ -25,6 +25,7 @@ export default {
     extend: {
       colors: {
         background: "#DFCCB6",
+        background2: "##FFF2E4",
         fontColours: "#422218",
       },
       fontFamily: {

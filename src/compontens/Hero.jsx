@@ -2,7 +2,6 @@ import { motion } from 'framer-motion'
 import logo from '../assets/logoCafe.png'
 
 
-
 const Hero = () => {
   return (
     <div className="w-screen h-screen relative phone:w-full phone:mb-[200px]">

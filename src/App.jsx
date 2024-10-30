@@ -6,6 +6,7 @@ import Menus from "./compontens/Menus"
 import Services from "./compontens/Services"
 import { useState, useEffect } from "react"
 import logo from './assets/logoCafe.png'
+import herobg from './assets/bgfinalteste.png'
 
 function App() {
   const [loading, setLoading] = useState(true);
@@ -28,7 +29,9 @@ function App() {
   }
 
   return (
-    <div className="h-screen phone:h-full bg-bgHero bg-cover phone:bg-contain bg-no-repeat">
+    <div 
+    style={{ backgroundImage: `url(${herobg})` }}
+    className="h-screen phone:h-full bg-bgHero bg-cover phone:bg-contain bg-no-repeat">
         <Hero />
         <Cards />
         <Services />
